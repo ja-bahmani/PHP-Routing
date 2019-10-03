@@ -16,5 +16,5 @@ $router->get('/profile', function($request)
 
 $router->post('/data', function($request)
 {
-  return json_encode($request->getBody());
+	return json_encode($request->getBody());
 });
